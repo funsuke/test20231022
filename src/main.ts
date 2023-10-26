@@ -22,6 +22,7 @@ import { Label } from "@akashic-extension/akashic-label";
 import { GameMainParameterObject } from "./parameterObject";
 
 // どこかからか取ってきたwindowインターフェース これでDOM操作もできる？
+// 多分要らないかも..
 declare const window: any;
 
 export function main(param: GameMainParameterObject): void {
